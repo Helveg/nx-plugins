@@ -1,7 +1,7 @@
 {
   "name": "@helveg/nx-python",
-  "description": "Fork of @nxlv/python 23.3.0 carrying lucasvieirasilva/nx-plugins#370 (keep version ranges for local deps with extras/markers at publish) and #371 (link and bump local deps referenced only through an extra). Install it aliased as @nxlv/python; drop the alias once both land upstream.",
-  "version": "23.3.0",
+  "description": "Fork of @nxlv/python 23.3.0 carrying lucasvieirasilva/nx-plugins#370 (correct extras/marker handling in the uv publish resolver: keep version ranges, and keep an extra requesting extras of a main local dependency) and #371 (link and bump local deps referenced only through an extra). Install it aliased as @nxlv/python; drop the alias once both land upstream.",
+  "version": "23.3.1",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
