@@ -1,6 +1,6 @@
 {
-  "name": "@nxlv/python",
-  "description": "Custom NX Plugin to support the Python language",
+  "name": "@helveg/nx-python",
+  "description": "Fork of @nxlv/python 23.3.0 carrying lucasvieirasilva/nx-plugins#370 (keep version ranges for local deps with extras/markers at publish) and #371 (link and bump local deps referenced only through an extra). Install it aliased as @nxlv/python; drop the alias once both land upstream.",
   "version": "23.3.0",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -53,6 +53,9 @@
   },
   "peerDependencies": {
     "@nx/devkit": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "nx-migrations": {
     "migrations": "./migrations.json"
